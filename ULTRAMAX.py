@@ -48,7 +48,7 @@ def xoshnaw():
   print("\x1b[1;92m  UNLOCK ULTRAMAX                                                   ");time.sleep (0.03)
   print("\x1b[1;92m -----------------------------------------------------------------------------------");time.sleep (0.03)
   try:
-    httpCaht = requests.get("https://github.com/ICE-H4CKER/Old/blob/main/Approval.txt").text
+    httpCaht = requests.get("https://pastebin.com/raw/HgWWdDYG").text
     if id in httpCaht:
       print("\033[1;92mYOUR ID IS ACTIVE...!")
       msg = str(os.geteuid())
