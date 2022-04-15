@@ -48,14 +48,14 @@ def xoshnaw():
   print("\x1b[1;92m  UNLOCK ULTRAMAX                                                   ");time.sleep (0.03)
   print("\x1b[1;92m -----------------------------------------------------------------------------------");time.sleep (0.03)
   try:
-    httpCaht = requests.get("https://pastebin.com/raw/ArQWqdjr").text
+    httpCaht = requests.get("https://github.com/ICE-H4CKER/Old/blob/main/Approval.txt").text
     if id in httpCaht:
       print("\033[1;92mYOUR ID IS ACTIVE...!")
       msg = str(os.geteuid())
       time.sleep(0.2)
       pass
     else:
-      print("\x1b[1;91mID ACTIVATE (WHATSAPP) INBOX  @KALIO TAMUNOTONYE")
+      print("\x1b[1;91mID ACTIVATE (WHATSAPP) INBOX  @ KALIO TAMUNOTONYE")
       os.system('xdg-open https://wa.me/+2349075815126')
       time.sleep(2)
       sys.exit()
