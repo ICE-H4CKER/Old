@@ -36,7 +36,7 @@ from bs4 import BeautifulSoup
 def xoshnaw():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
-  server = requests.get('https://pastebin.com/raw/ArQWqdjr').text
+  server = requests.get('https://github.com/DG-SMART/Old/blob/main/public.txt').text
   print("\x1b[1;92m -----------------------------------------------------------------------------------");time.sleep (0.03)
   print("\x1b[1;92m PREMIUM                                                                            ");time.sleep (0.03)
   print("\x1b[1;92m 1MONTH 25000                                                                  ");time.sleep (0.03)
